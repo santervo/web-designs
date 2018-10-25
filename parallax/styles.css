@@ -1,0 +1,36 @@
+body,
+html {
+  height: 100%;
+}
+
+.parallax-bg {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.morning-sun {
+  background-image: url("../images/morning_sun.jpg");
+}
+
+.tomatos {
+  background-image: url("../images/tomatoes.jpg");
+}
+
+.rabbits {
+  background-image: url("../images/rabbits.jpg");
+}
+
+.section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #333;
+}
